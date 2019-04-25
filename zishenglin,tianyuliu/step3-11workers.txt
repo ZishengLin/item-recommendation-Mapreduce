@@ -1,0 +1,65 @@
+2019-04-25 03:00:06,256 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 30%
+2019-04-25 03:00:07,262 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2019-04-25 03:00:07,270 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1556160664136_0003 completed successfully
+2019-04-25 03:00:07,401 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=7452097
+		FILE: Number of bytes written=17974436
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1350
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=10
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=7696875
+		S3: Number of bytes written=7783356
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=10
+		Launched reduce tasks=10
+		Data-local map tasks=10
+		Total time spent by all maps in occupied slots (ms)=2963025
+		Total time spent by all reduces in occupied slots (ms)=5633550
+		Total time spent by all map tasks (ms)=65845
+		Total time spent by all reduce tasks (ms)=62595
+		Total vcore-milliseconds taken by all map tasks=65845
+		Total vcore-milliseconds taken by all reduce tasks=62595
+		Total megabyte-milliseconds taken by all map tasks=94816800
+		Total megabyte-milliseconds taken by all reduce tasks=180273600
+	Map-Reduce Framework
+		Map input records=7120
+		Map output records=1048575
+		Map output bytes=16095734
+		Map output materialized bytes=7127455
+		Input split bytes=1350
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14026
+		Reduce shuffle bytes=7127455
+		Reduce input records=1048575
+		Reduce output records=14026
+		Spilled Records=2097150
+		Shuffled Maps =100
+		Failed Shuffles=0
+		Merged Map outputs=100
+		GC time elapsed (ms)=2652
+		CPU time spent (ms)=55900
+		Physical memory (bytes) snapshot=10129432576
+		Virtual memory (bytes) snapshot=77430444032
+		Total committed heap usage (bytes)=9753853952
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7696875
+	File Output Format Counters 
+		Bytes Written=7783356
